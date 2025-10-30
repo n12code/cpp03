@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:44:35 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 12:49:23 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/10/30 11:48:38 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,7 @@ class ClapTrap
         void takeDamage(unsigned int amount);
         void beRepaired(unsigned int amount);
     };
+
+
 
 #endif

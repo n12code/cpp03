@@ -6,12 +6,13 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:44:26 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 12:39:45 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/10/30 12:57:12 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/ClapTrap.hpp"
 #include "../inc/ScavTrap.hpp"
+#include <iostream>
 
 int main(void)
 {
