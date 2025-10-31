@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 17:22:17 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 18:52:23 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/10/31 18:47:34 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ class DiamondTrap : public ScavTrap, public FragTrap
         
     public:
         DiamondTrap(std::string name);
+        DiamondTrap(const DiamondTrap& obj);
         ~DiamondTrap();
+        DiamondTrap&    operator=(const DiamondTrap& obj);
         void attack(const std::string& target);
         void whoAmI();
 };

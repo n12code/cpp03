@@ -6,13 +6,14 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:44:26 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 18:55:27 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/10/31 19:35:28 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/ClapTrap.hpp"
 #include "../inc/ScavTrap.hpp"
 #include "../inc/FragTrap.hpp"
+#include "../inc/DiamondTrap.hpp"
 #include <iostream>
 
 //take a look at the flags
@@ -85,6 +86,18 @@ int main(void)
 
     jason.attack("Dylan");
     timmy.highFivesGuys();
+    
+    std::cout << std::endl;
+
+    DiamondTrap diamond("Diamond");
+    DiamondTrap diamond_bis(diamond);
+
+    std::cout << std::endl;
+     
+    diamond.attack("Diamond");
+    diamond_bis.highFivesGuys();
+    diamond_bis.guardGate();
+    diamond.whoAmI();
     
     return (0);
 }

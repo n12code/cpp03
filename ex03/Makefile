@@ -1,18 +1,18 @@
 NAME = clap
 CXX = g++
-CXXFLAGS = -g -Wall -Wextra -Werror -std=c++98
+CXXFLAGS = -g -Wall -Wextra -Werror -Wshadow -std=c++98
 I_FLAGS = -I$(INC_DIR)
 
 OBJ_DIR = obj
 SRC_DIR = src
 INC_DIR = inc
 
-FILES = main ClapTrap ScavTrap FragTrap
+FILES = main ClapTrap ScavTrap FragTrap DiamondTrap
 
 SRC = $(addprefix $(SRC_DIR)/, $(addsuffix .cpp, $(FILES)))
 OBJ = $(addprefix $(OBJ_DIR)/, $(addsuffix .o, $(FILES)))
 
-HEADERS = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
+HEADERS = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp DiamondTrap.hpp
 HEADERS := $(addprefix $(INC_DIR)/, $(HEADERS))
 
 
