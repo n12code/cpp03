@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 11:24:12 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 17:20:39 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/11/04 11:31:56 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define SCAV_TRAP_HPP
 
 # include "./ClapTrap.hpp"
+# include <iostream>
 
 class ScavTrap : virtual public ClapTrap
 {

@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 17:22:17 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/31 18:47:34 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/11/04 11:31:59 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include "./ClapTrap.hpp"
 # include "./FragTrap.hpp"
 # include "./ScavTrap.hpp"
+# include <iostream>
 
 class DiamondTrap : public ScavTrap, public FragTrap
 {
@@ -29,6 +30,7 @@ class DiamondTrap : public ScavTrap, public FragTrap
         DiamondTrap&    operator=(const DiamondTrap& obj);
         void attack(const std::string& target);
         void whoAmI();
+
 };
 
 #endif

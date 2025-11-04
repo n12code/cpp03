@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 12:47:41 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 17:21:01 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/11/04 11:31:52 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FRAG_TRAP_HPP
 
 # include "./ClapTrap.hpp"
+# include <iostream>
 
 class FragTrap : virtual public ClapTrap
 {

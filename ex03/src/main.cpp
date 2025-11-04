@@ -6,7 +6,7 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:44:26 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/31 19:35:28 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2025/11/04 11:22:50 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,6 @@
 #include "../inc/FragTrap.hpp"
 #include "../inc/DiamondTrap.hpp"
 #include <iostream>
-
-//take a look at the flags
-//add tests
-//check it all one last time
 
 int main(void)
 {
