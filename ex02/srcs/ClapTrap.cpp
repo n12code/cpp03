@@ -6,11 +6,11 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/29 13:44:24 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 12:40:42 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2026/01/20 17:04:50 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ClapTrap.hpp"
+#include "ClapTrap.hpp"
 #include <iostream>
 
 ClapTrap::ClapTrap(std::string name)

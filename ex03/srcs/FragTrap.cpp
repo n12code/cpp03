@@ -6,12 +6,12 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 12:47:59 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 12:56:03 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2026/01/20 17:05:27 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ClapTrap.hpp"
-#include "../inc/FragTrap.hpp"
+#include "ClapTrap.hpp"
+#include "FragTrap.hpp"
 #include <iostream>
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)

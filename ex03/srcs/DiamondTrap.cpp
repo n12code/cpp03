@@ -6,14 +6,14 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 17:36:37 by nbodin            #+#    #+#             */
-/*   Updated: 2025/11/04 11:32:25 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2026/01/20 17:05:21 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ClapTrap.hpp"
-#include "../inc/FragTrap.hpp"
-#include "../inc/ScavTrap.hpp"
-#include "../inc/DiamondTrap.hpp"
+#include "ClapTrap.hpp"
+#include "FragTrap.hpp"
+#include "ScavTrap.hpp"
+#include "DiamondTrap.hpp"
 #include <iostream>
 
 DiamondTrap::DiamondTrap(std::string name)

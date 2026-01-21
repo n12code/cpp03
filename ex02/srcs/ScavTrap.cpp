@@ -6,12 +6,12 @@
 /*   By: nbodin <nbodin@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 11:24:15 by nbodin            #+#    #+#             */
-/*   Updated: 2025/10/30 12:40:20 by nbodin           ###   ########lyon.fr   */
+/*   Updated: 2026/01/20 17:05:07 by nbodin           ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/ClapTrap.hpp"
-#include "../inc/ScavTrap.hpp"
+#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 #include <iostream>
 
 ScavTrap::ScavTrap(std::string name) : ClapTrap(name)
