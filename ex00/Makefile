@@ -1,4 +1,4 @@
-NAME = clapTrap
+NAME = claptrap
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -MMD -MP -std=c++98
 I_FLAGS = -I$(INCS_DIR)
